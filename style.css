@@ -1,0 +1,378 @@
+*, body, html{
+    padding:0;
+    margin: 0;
+}
+body{
+    margin-top: 0px;
+    color:black;
+    text-align: center;
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*header*/
+.header{
+    background-image: url(header1.jpg);
+    height: 300px;
+    color: rgb(7, 73, 117);
+    text-shadow: 0px 0.5px 0.5px blue;
+    background-size:auto;
+    text-align: left;
+    padding-left: 120px;
+    position: relative;
+    z-index: 12;
+}
+
+h1{
+    text-align: left;
+    padding-top: 140px;
+    padding-left: 120px;
+    z-index: 12;
+}
+/*h2 in center- services*/
+h2{
+    text-align: center;
+    color: black;
+    z-index: 12;
+}
+/*hr to split middle school*/
+hr{
+    height: 2px;
+    background: grey;
+}
+/*change font*/
+p{
+    line-height: em 1.7;
+    font-size: 12px;
+    font-family: verdana;
+}
+/*navvbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(7, 73, 117);
+  } 
+li {
+    float: left;
+}  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+    background-color: blue;
+}
+.active {
+      background-color: rgb(23, 4, 92);
+}
+a:visited {
+    background-color: blue;
+}
+
+/*.class{
+    width: 42%;
+    height: 30%;
+    text-align: left;
+    display: inline-block;
+    box-shadow: 5px 5px 5px grey;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.class1{
+    width: 40%;
+    height: 150px;
+    padding-top: 50px;
+    margin-top: 0%;
+    margin-left: 30%;
+    text-align: left;
+    box-shadow: 5px 5px 5px grey;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.class2{
+    width: 60%;
+    height: 30%;
+    padding-top: 50px;
+    margin-top: 0%;
+    margin-left: 20%;
+    text-align: left;
+    box-shadow: 5px 5px 5px grey;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.together{
+    width: 70%;
+    height: 30%;
+    text-align: left;
+    display: inline-block;
+    box-shadow: 5px 5px 5px grey;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}*/
+/*float left/right/mid*/
+#left{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#right{
+    float:right;
+    margin-right: 5%;
+}
+#mid{
+    width: 70%;
+    height:170px;
+    margin-top: 0%;
+    margin-left: 15%;
+    text-align: left;
+    
+}
+/*box-shadow: 5px 5px 5px grey;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;*/
+/*full*/
+.red{
+    color: red;
+    text-shadow: 0px 1px 0px rgb(77, 0, 0);
+    text-align: right;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+/*image in header*/
+#img{
+    width: 90%;
+    z-index: -19;
+    position: relative;
+}
+#imgForHeader{
+    margin-left: 60%;
+    margin-top: -20%;
+    z-index: -19;
+
+}
+.img2{
+    width: 100%;
+}
+h4{
+    text-align: left;
+    padding-left: 5%;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 20px;
+}
+#dif{
+    text-align: left;
+    padding-left: 5%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.788)
+}
+h5{
+    text-align: center;
+    font-size: 13px;
+}
+.bottom{
+    text-align: left;
+}
+.bottom1{
+    margin-top: 5%;
+}
+.h1{
+    margin-top: 0%;
+    padding-top: 5%;
+}
+.special{
+    margin-left: 5px;
+}
+#special{
+    font-size: 35px;
+}
+/*<a> in bottom*/
+a{
+    text-decoration: none;
+}
+.a:hover{
+    color: blue;
+}
+.a:visited {
+    color: blue
+}
+
+/*pictures in gallery*/
+#allPictures{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pictures{
+    margin-top: 0%;
+    border: 5px groove green;
+    width: 15%;
+    margin: 4%;
+    display: inline-block;
+}
+.box{
+    width: 80%;
+    margin-left: 8.5%;
+    padding: 2%;
+    background: white;
+    float: middle;
+    font-family: verdana;
+    border-radius: 30px;
+    text-align: left;
+}
+#importantBox {
+    width: 60%;
+    margin-left: 17%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    background: white;
+    float: middle;
+    font-family: verdana;
+    text-align: center;
+}
+#div1{
+    width: 100%;
+    margin-left: 0%;
+}
+.mid{
+    text-align: left;
+    margin-left: 5%;
+}
+#mid1{
+    text-align: center;
+}
+/*changes height of a large picture*/
+#small1{
+    height: 250px;
+}
+#small2{
+    width: 13%;
+}
+#big1 {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: red;
+    text-align: center;
+}
+h3{
+    font-size: 15px;
+}
+@media (max-width: 600px){
+    #div1{
+        width: 100%;
+    }
+    .pictures{
+        width: 20%;
+        margin: 4%;
+        margin-left: 16%;
+    }
+}
+#mid2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 22px;
+    text-align: center;
+}
+.left2{
+    text-align: left;
+    font-size: 17px;
+}
+
+.left1{
+    text-align: left;
+}
+#tiny{
+    font-size: 10px;
+}
+.small3{
+    font-size: 18px;
+}
+.small4{
+    font-size: 13px;
+}
+.small5 {
+    font-size: 15px;
+}
+/*important at home due to corona virus*/
+#important1{
+    margin: 0%;
+    padding: 0%;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+/* Announcement */
+#announcement {
+    font-size: 40px;
+    color: red;
+}
+
+/*GRAPH FOR CLASSES*/
+#graphW{
+    border: 2px solid black;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#graphW h3{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#graphF{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 15%;
+    width: 70%;
+}
+
+#graphF h3{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.graphHolder{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.graphHolder p {
+    font-size: 13px;
+}
+
+.graphLeft{
+    text-align: left;
+    width: 100%;
+}
+
+.graphClassSummary{
+    padding: 7px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.graphRight{
+    width: 50%;
+}
+
+.graphTime{
+    padding: 7px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
